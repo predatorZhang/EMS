@@ -1,0 +1,5 @@
+ul.page-sidebar-menu > li.active > a {
+    background-image: url("../images/basic/btn-menu-current.png");
+    border-top-color: transparent !important;
+    color: #ffffff;
+}

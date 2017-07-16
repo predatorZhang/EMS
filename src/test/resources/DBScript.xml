@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <!--user account表-->
+    <USER_ACCOUNT DBID="1" USERNAME="刘鑫" PASSWORD="zhangfan" SCOPEID="I"/>
+    <USER_ACCOUNT DBID="2" USERNAME="Test1" PASSWORD="Test1" SCOPEID="P"/>
+    <USER_ACCOUNT DBID="3" USERNAME="Test2" PASSWORD="Test1" SCOPEID="P"/>
+</dataset>

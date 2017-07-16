@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html,div,form,p,span,a,h1,h2,h3,h4,em,b,strong,i,img,input{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	min-width:1024px;
+  _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1024?"1024px":""); 
+}
+.Login{
+	width:100%;
+	height:100%;
+}
+	.login_bg{
+		width:100%;
+		overflow:hidden;
+		position:relative;
+	}
+		.login_bg img{
+			width:100%;
+			height:100%;
+		}
+		.login_dw{
+			display:block;
+			background:url(images/dwLogo.png) no-repeat;
+			width:970px;
+			height:300px;
+			position:absolute;
+			left:50%;
+			top:50%;
+			margin-left:-485px;
+			margin-top:-150px;
+		}
+	.login_fot{
+		width:100%;
+		height:255px;
+		position:relative;
+		-moz-box-shadow:5px 5px 5px #999 inset;              
+		-webkit-box-shadow:5px 5px 5px #999 inset;           
+		box-shadow:5px 5px 5px #999 inset; 
+	}
+		.login_fot img{
+			width:100%;
+			height:100%;
+		}
+		.login_div{
+			display:block;
+			background:url(images/login_div.png) no-repeat;
+			width:590px;
+			height:212px;
+			position:absolute;
+			left:10%;
+			top:0;
+			z-index:100;
+		}
+		.login_BT{
+			display:block;
+			width:585px;
+			height:255px;
+			line-height:2000px;
+			font-size:0;
+			background:url(images/login_b.png) left top no-repeat;
+			overflow:hidden;
+			position:absolute;
+			right:0;
+			top:0;
+			z-index:1;
+		}
+		input.userName, input.password{
+			width:428px;
+			height:41px;
+			line-height:40px;
+			padding-left:10px;
+			border:none;
+			background:none;
+			position:absolute;
+			left:122px;
+			font-size:14px;
+			color:#666;
+		}
+			input.userName{
+				top:46px;
+			}
+			input.password{
+				top:103px;
+			}
+		input.LoginBtn, input.resetBtn{
+			border:none;
+			background:none;
+			display:block;
+			height:26px;
+			cursor:pointer;
+			position:absolute;
+			top:158px;
+			font-size:0;
+			font-size:2000px;
+			overflow:hidden;
+		}
+			input.LoginBtn{
+				width:80px;
+				left:354px;
+			}
+			input.resetBtn{
+				width:50px;
+				left:512px;
+			}
+			#msg{
+			position:absolute;
+			color:#F00;
+			left:30%;
+			z-index:200;
+			}
+	
+			
